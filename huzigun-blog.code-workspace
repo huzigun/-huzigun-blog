@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "api-server",
+		"path": "api-server"
+	},
+	{
+		"name": "front-react",
+		"path": "front-react"
+	},
+	{
+		"name": "front-vue",
+		"path": "front-vue"
+	}
+],
+  "settings": {}
+}
