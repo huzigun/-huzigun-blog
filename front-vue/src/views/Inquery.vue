@@ -1,19 +1,18 @@
 <template>
   <AppLayout>
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-    <div class="home">asdas</div>
+    <div class="inquery">
+      <h1>This is an inquery page</h1>
+    </div>
   </AppLayout>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue';
 import AppLayout from '@/layouts/AppLayout.vue';
 
 export default defineComponent({
-  name: 'Home',
+  name: 'inquery-page',
   components: {
-    HelloWorld,
     AppLayout,
   },
 });

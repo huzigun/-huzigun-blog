@@ -5,7 +5,9 @@ import store from './store';
 
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3000';
+import '@/assets/common.scss';
+
+axios.defaults.baseURL = 'http://localhost:9700';
 axios.defaults.withCredentials = true;
 
 createApp(App).use(store).use(router).mount('#app');
